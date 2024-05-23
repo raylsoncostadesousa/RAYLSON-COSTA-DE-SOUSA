@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raylson Costa de Sousa - Advogado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: #000;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2em 0;
+        }
+        .about, .services, .contact {
+            background: #fff;
+            padding: 2em;
+            margin-bottom: 1em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 1em;
+            margin: 0.5em 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact form input[type="submit"] {
+            background: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .contact form input[type="submit"]:hover {
+            background: #555;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Raylson Costa de Sousa</h1>
+    <p>Advogado - OAB MG 217425</p>
+</header>
+
+<nav>
+    <a href="#about">Sobre Mim</a>
+    <a href="#services">Serviços</a>
+    <a href="#contact">Contato</a>
+</nav>
+
+<div class="container">
+    <section id="about" class="about">
+        <h2>Sobre Mim</h2>
+        <p>Sou Raylson Costa de Sousa, um advogado com vasta experiência em diversas áreas do direito. Atuo de forma ética e dedicada para garantir os melhores resultados para meus clientes.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Serviços</h2>
+        <p>Ofereço serviços jurídicos especializados, incluindo:</p>
+        <ul>
+            <li>Consultoria e assessoria jurídica</li>
+            <li>Representação em processos judiciais</li>
+            <li>Defesa criminal</li>
+            <li>Direito civil e empresarial</li>
+            <li>Direito trabalhista</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contato</h2>
+        <p>Entre em contato para agendar uma consulta ou obter mais informações sobre os serviços oferecidos.</p>
+        <form action="mailto:raylson@advocacia.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <textarea name="message" placeholder="Sua Mensagem" rows="5" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+        <p>Telefone: <a href="tel:+5534984025557">(34) 98402-5557</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Raylson Costa de Sousa. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
